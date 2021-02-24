@@ -1,0 +1,15 @@
+{
+  "background_color": "purple",
+  "description": "This is my first pwa",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "img/logo.png",
+      "sizes": "300x300",
+      "type": "image/png"
+    }
+  ],
+  "name": "first PWA",
+  "short_name": "PWA",
+  "start_url": "/"
+}
