@@ -11,5 +11,5 @@
   ],
   "name": "first PWA",
   "short_name": "PWA",
-  "start_url": "/"
+  "start_url": "/my-first-pwa/"
 }
