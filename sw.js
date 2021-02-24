@@ -1,12 +1,6 @@
 self.addEventListener('install', (e) => {
   e.waitUntil(
-    caches.open('first-pwa').then((cache) => cache.addAll([
-      '/my-first-pwa/',
-      '/my-first-pwa/index.html',
-      '/my-first-pwa/app.js',
-      '/my-first-pwa/style.css',
-      '/my-first-pwa/img/logo.png',
-    ])),
+    caches.open('first-pwa').then((cache) => cache.addAll([])),
   );
 });
 
